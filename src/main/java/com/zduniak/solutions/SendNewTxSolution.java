@@ -3,15 +3,12 @@ package com.zduniak.solutions;
 import java.io.IOException;
 
 import org.stellar.sdk.Asset;
-import org.stellar.sdk.AssetTypeNative;
 import org.stellar.sdk.ChangeTrustOperation;
 import org.stellar.sdk.KeyPair;
-import org.stellar.sdk.Memo;
 import org.stellar.sdk.Network;
 import org.stellar.sdk.PaymentOperation;
 import org.stellar.sdk.Server;
 import org.stellar.sdk.Transaction;
-import org.stellar.sdk.responses.AccountResponse;
 import org.stellar.sdk.responses.SubmitTransactionResponse;
 
 /**

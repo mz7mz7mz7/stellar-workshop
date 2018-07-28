@@ -11,6 +11,8 @@ public class CreateNewAccount {
 
 		System.out.println(new String(pair.getSecretSeed()));
 		System.out.println(pair.getAccountId());
+		
+		// TODO: use friendly bot to fund/setup created account
 	}
 
 }

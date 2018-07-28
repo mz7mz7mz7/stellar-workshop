@@ -4,11 +4,7 @@ import java.io.IOException;
 
 import org.stellar.sdk.KeyPair;
 import org.stellar.sdk.Server;
-import org.stellar.sdk.requests.EventListener;
-import org.stellar.sdk.requests.RequestBuilder.Order;
 import org.stellar.sdk.responses.AccountResponse;
-import org.stellar.sdk.responses.Page;
-import org.stellar.sdk.xdr.AssetType;
 
 // Details: https://www.stellar.org/developers/guides/get-started/create-account.html
 public class ReadAllBalancesSolution {

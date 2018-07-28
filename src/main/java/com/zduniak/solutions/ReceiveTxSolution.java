@@ -19,8 +19,6 @@ public class ReceiveTxSolution {
 
 	public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
 		
-		Network.useTestNetwork();
-		
 		Server server = new Server("https://horizon.stellar.org");
 
 		String assetCode = "TON";

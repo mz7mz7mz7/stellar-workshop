@@ -20,6 +20,7 @@ import org.stellar.sdk.responses.SubmitTransactionResponse;
  *   b) S2 sending 20 EUR to D2, from S2's balance.
  * 3. Sequence number is increased only on account S1.
  * 4. All the preparatory transactions (TrustLimit setup, initial distribution of the assets should happen in separate transactions).
+ * 5. Use friendly bot / laboratory to create s1, s2, d1, d2.
  * 
  * TODO: Note that this technique (called Channels) can be used to implement transaction sending at a high rate from the decoupled nodes/servers.
  * More on it here: https://www.stellar.org/developers/guides/channels.html
@@ -28,7 +29,7 @@ import org.stellar.sdk.responses.SubmitTransactionResponse;
  *  1. You have access to the prv key of the Issuing account A (asset: EUR).
  *  2. You have also access to your clients public key of account C.
  *  3. The task:
- *    Create the new Stellar account and fund it with the 1 EUR so that only C (eventually) can spend it.  
+ *    In one single transaction create the new Stellar account and fund it with the 1 EUR so that *only* C can spend it.  
  */
 // Details: https://www.stellar.org/developers/guides/get-started/transactions.html
 public class SendNewTx {

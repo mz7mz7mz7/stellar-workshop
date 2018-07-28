@@ -7,18 +7,10 @@ import org.stellar.sdk.Asset;
 import org.stellar.sdk.AssetTypeCreditAlphaNum;
 import org.stellar.sdk.AssetTypeNative;
 import org.stellar.sdk.KeyPair;
-import org.stellar.sdk.Memo;
 import org.stellar.sdk.Network;
-import org.stellar.sdk.PaymentOperation;
 import org.stellar.sdk.Server;
-import org.stellar.sdk.TimeBounds;
-import org.stellar.sdk.Transaction;
-import org.stellar.sdk.federation.Federation;
 import org.stellar.sdk.requests.EventListener;
 import org.stellar.sdk.requests.PaymentsRequestBuilder;
-import org.stellar.sdk.responses.AccountResponse;
-import org.stellar.sdk.responses.Page;
-import org.stellar.sdk.responses.SubmitTransactionResponse;
 import org.stellar.sdk.responses.operations.OperationResponse;
 import org.stellar.sdk.responses.operations.PaymentOperationResponse;
 
